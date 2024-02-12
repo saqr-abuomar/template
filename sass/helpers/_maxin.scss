@@ -1,0 +1,17 @@
+@mixin list-reset {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin svg-set {
+    height: 60px;
+    width: 60px;
+}
+
