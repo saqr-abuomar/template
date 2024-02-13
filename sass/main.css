@@ -583,4 +583,135 @@ body {
 }
 .pricing .main-pricing .pricing-box .button-pro {
   margin: 0;
+}
+
+.contact {
+  display: flex;
+  background-color: #eee;
+  flex-direction: column;
+}
+.contact .about-contact {
+  display: flex;
+  flex-direction: column;
+  color: black;
+  margin: 100px 0 50px 0;
+}
+.contact .about-contact .about-contact-div {
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+}
+.contact .main-contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact .main-contact-info .contact-info {
+  width: 97%;
+  height: 50px;
+}
+.contact .main-contact-info .contact-fixed-info {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+.contact .main-contact-info .contact-fixed-info .contact-fixed-info-icon {
+  height: 40px;
+  width: 30px;
+  margin-right: 10px;
+}
+.contact .main-contact-info .contact-info-form {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  margin: 50px 0;
+}
+.contact .main-contact-info .contact-info-form .contact-info-input {
+  height: 50px;
+  margin-bottom: 10px;
+  border: 0.5px solid #d6d5d5;
+}
+.contact .main-contact-info .contact-info-form .contact-info-input-button {
+  height: 40px;
+  width: 150px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+}
+.contact .main-contact-info .contact-info-form .contact-info-input-button .contact-info-input-link {
+  text-decoration: none;
+  color: white;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact .main-contact-info .contact-info-form .contact-info-input-button .contact-info-input-link .contact-info-input-link-icon {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+  color: white;
+}
+.contact .main-contact-info .contact-info-pic {
+  background-image: url("../map.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: grayscale(80%);
+  height: 800px;
+  width: 97%;
+  margin-bottom: 100px;
+}
+
+.footer .main-footer {
+  background-color: black;
+  color: white;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.footer .main-footer .footer-button {
+  height: 40px;
+  width: 140px;
+  background-color: #eee;
+}
+.footer .main-footer .footer-button .footer-items-link {
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.footer .main-footer .footer-button .footer-items-link:hover {
+  background-color: #d6d5d5;
+}
+.footer .main-footer .footer-button .footer-items-link .footer-items-link-icon {
+  height: 20px;
+  width: 20px;
+}
+.footer .main-footer .footer-social {
+  display: flex;
+  justify-content: space-evenly;
+  width: calc(20% - 20px);
+}
+.footer .main-footer .footer-social .footer-social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  color: #eee;
+}
+.footer .main-footer .footer-social .footer-social-link:hover {
+  opacity: 0.5;
+}
+.footer .main-footer .footer-social .footer-social-link .footer-social-link-icon {
+  height: 20px;
+  width: 20px;
 }/*# sourceMappingURL=main.css.map */
