@@ -71,9 +71,6 @@ body {
   justify-content: center;
   z-index: 0;
 }
-.in-pic .one {
-  font-size: 70px;
-}
 .in-pic .two {
   font-size: 18px;
 }
@@ -135,7 +132,7 @@ body {
 
 .company {
   background-color: white;
-  height: 100vh;
+  height: 150vh;
   padding: 20px;
   align-items: center;
 }
@@ -157,15 +154,10 @@ body {
 }
 .company .services-boxes {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
   gap: 20px;
   margin: 50px 0;
-}
-.company .services-boxes .service-box {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
 }
 .company .services-boxes .service-box .pic-service-div {
   display: flex;
@@ -254,7 +246,6 @@ body {
   flex-wrap: wrap;
 }
 .team .main-team-member .team-member {
-  width: calc(25% - 30px);
   height: -moz-fit-content;
   height: fit-content;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 4px 15px 0 rgba(0, 0, 0, 0.1);
@@ -378,7 +369,6 @@ body {
   flex-wrap: wrap;
 }
 .our-work .main-our-work-image .our-work-image {
-  flex-basis: calc(25% - 20px);
   background-color: #333;
   height: 200px;
   margin: 5px;
@@ -578,8 +568,8 @@ body {
   background-color: black;
   color: white;
   font-size: 15px;
-  height: 50%;
-  flex-basis: 25%;
+  height: 45px;
+  flex-basis: 100px;
 }
 .pricing .main-pricing .pricing-box .button-pro {
   margin: 0;
@@ -698,7 +688,6 @@ body {
 .footer .main-footer .footer-social {
   display: flex;
   justify-content: space-evenly;
-  width: calc(20% - 20px);
 }
 .footer .main-footer .footer-social .footer-social-link {
   display: flex;
@@ -714,4 +703,114 @@ body {
 .footer .main-footer .footer-social .footer-social-link .footer-social-link-icon {
   height: 20px;
   width: 20px;
+}
+.footer .main-footer .footer-creator .footer-creator-link {
+  color: white;
+  font-size: 15px;
+}
+
+@media (max-width: 600px) {
+  .header .main-menu {
+    display: none;
+  }
+  .in-pic .one {
+    font-size: 30px;
+  }
+  .company {
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .company .services-boxes .service-box {
+    width: calc(100% - 20px);
+  }
+  .show-work {
+    flex-direction: column;
+  }
+  .show-work .show-work-text {
+    width: calc(100% - 50px);
+    height: auto;
+    margin: 50px 0 0 0;
+  }
+  .show-work .pic {
+    width: calc(100% - 50px);
+    margin: 0 0 100px 0;
+  }
+  .team {
+    height: 400vh;
+  }
+  .team .main-team-member .team-member {
+    width: 100%;
+  }
+  .statistics {
+    flex-direction: column;
+  }
+  .statistics .statistics-item {
+    height: 100px;
+    width: 100%;
+  }
+  .our-work .main-our-work-image .our-work-image {
+    width: 100%;
+    height: 390px;
+  }
+  .our-skils {
+    flex-direction: column;
+    align-items: normal;
+    height: 120vh;
+  }
+  .our-skils .main-skils .skils {
+    width: 90%;
+  }
+  .our-skils .main-skils .skils .skils-bar {
+    width: 100%;
+  }
+  .pricing {
+    height: 390vh;
+  }
+  .pricing .main-pricing {
+    flex-direction: column;
+    align-items: center;
+  }
+  .pricing .main-pricing .pricing-box {
+    width: 90%;
+  }
+  .contact .main-contact-info .contact-info {
+    width: 94%;
+  }
+  .contact .main-contact-info .contact-info-pic {
+    height: 380px;
+    width: 94%;
+  }
+}
+@media (min-width: 601px) {
+  .in-pic .one {
+    font-size: 70px;
+  }
+  .company .services-boxes .service-box {
+    width: calc(25% - 30px);
+  }
+  .team {
+    height: 209vh;
+  }
+  .team .main-team-member .team-member {
+    width: calc(50% - 20px);
+  }
+  .our-work .main-our-work-image .our-work-image {
+    width: calc(50% - 20px);
+  }
+  .pricing {
+    height: 180vh;
+  }
+  .pricing .main-pricing .pricing-box {
+    flex-basis: calc(33.3333333333% - 5px);
+  }
+}
+@media (min-width: 993px) {
+  .team .main-team-member .team-member {
+    width: calc(25% - 30px);
+  }
+}
+@media (max-width: 992px) {
+  .our-work .main-our-work-image .our-work-image {
+    width: calc(25% - 20px);
+  }
 }/*# sourceMappingURL=main.css.map */
